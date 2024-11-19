@@ -2,7 +2,7 @@
 
 A Dynamic Form Generator built with React and Vite, leveraging Material-UI for styled components.This tool dynamically generates fully-functional forms in real-time from a JSON schema. Ideal for surveys, feedback forms, or any scenario requiring dynamic form creation.
 
-
+![image alt](https://github.com/siddu925/Dynamic-form-generator/blob/6ca974d113ca871e957120e405709d73d9f30a60/image1.png)
 
 **Features**
 
@@ -134,6 +134,8 @@ main.jsx                # Entry point with Vite configuration
 
 **Dark Mode Support**
 Toggle the dark mode in the app header to adjust the form’s colors and improve accessibility.
+
+![image alt](https://github.com/siddu925/Dynamic-form-generator/blob/6ca974d113ca871e957120e405709d73d9f30a60/image2.png)
 
 **Built With**
 
