@@ -1,0 +1,136 @@
+/* General Form Container Styles */
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: white; /* Light mode background */
+  color: black; /* Light mode text */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark-mode .form-container {
+  background-color: #da6c6c; /* Dark mode background */
+  color: #e0e0e0; /* Dark mode text */
+  box-shadow: 0 2px 10px rgb(242, 223, 223); /* Adjust shadow for dark mode */
+}
+
+/* Form Fields Styles */
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 600px; /* Optional: Set a max width for larger screens */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Input and TextArea */
+.form input,
+.form textarea {
+  background-color: #fff; /* Default input background */
+  color: #333; /* Default input text */
+  border: 1px solid #ccc; /* Default border */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.dark-mode .form input,
+.dark-mode .form textarea {
+  background-color: #d3b0b0; /* Dark mode input background */
+  color: #000000; /* Dark mode input text */
+  border: 1px solid #555; /* Dark mode border */
+}
+
+/* Material-UI Input Fields */
+.dark-mode .MuiInputBase-root {
+  background-color: #d3b0b0 !important; /* Dark input background */
+  color: #e0e0e0 !important; /* Light input text */
+}
+
+.dark-mode .MuiFormLabel-root {
+  color: #0e0e0e !important; /* Light label text */
+}
+
+.dark-mode .MuiInputBase-root.Mui-focused,
+.dark-mode .MuiFormLabel-root.Mui-focused {
+  color: #e0e0e0 !important; /* Focused input and label color */
+}
+
+/* Select Fields */
+.dark-mode .MuiSelect-root {
+  background-color: #d3b0b0!important; /* Dark select background */
+  color: #e0e0e0 !important; /* Light select text */
+}
+
+.dark-mode .MuiSelect-icon {
+  color: #e0e0e0 !important; /* Select dropdown icon */
+}
+
+.dark-mode .MuiMenuItem-root {
+  background-color: #52363631!important; /* Dropdown item background */
+  color: #000000 !important; /* Dropdown item text */
+}
+
+.dark-mode .MuiMenuItem-root:hover {
+  background-color: #555 !important; /* Hover background */
+}
+
+/* Radio Buttons */
+.dark-mode .MuiRadio-root {
+  color: #e0e0e0 !important; /* Radio button color */
+}
+
+.dark-mode .MuiFormControlLabel-label {
+  color: #e0e0e0 !important; /* Radio button label */
+}
+
+/* Checkboxes */
+.dark-mode .MuiCheckbox-root {
+  color: #e0e0e0 !important; /* Checkbox color */
+}
+
+/* Buttons */
+button {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+.dark-mode button {
+  background-color: #444 !important; /* Dark button background */
+  color: #e0e0e0 !important; /* Light text */
+}
+
+.dark-mode button:hover {
+  background-color: #555 !important; /* Hover effect for dark mode */
+}
+
+/* Form Title and Description */
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666; /* Light mode text */
+}
+
+.dark-mode .form-description {
+  color: #421414; /* Dark mode text */
+}
