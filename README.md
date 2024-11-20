@@ -32,8 +32,10 @@ A Dynamic Form Generator built with React and Vite, leveraging Material-UI for s
 
 
 -Field Validation: Supports required fields and regex-based validation patterns.
-Responsive Design: Optimized for all devices—desktop, tablet, and mobile.
+-Responsive Design: Optimized for all devices—desktop, tablet, and mobile.
 
+**Demo**
+You can try the live demo here: https://easy-form-creator.netlify.app
 
 **Usage**
 
