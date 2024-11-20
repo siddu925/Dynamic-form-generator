@@ -43,6 +43,7 @@ JSON Schema Example
 
 Here’s a sample JSON schema to generate a Customer Satisfaction Survey:
 
+``` JSON
 {
  "formTitle": "Customer Satisfaction Survey",
  
@@ -101,6 +102,7 @@ Here’s a sample JSON schema to generate a Customer Satisfaction Survey:
   ]
 }
 
+```
 
 **Steps to Use**
 
